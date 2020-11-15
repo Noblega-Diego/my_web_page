@@ -1,0 +1,22 @@
+:root{
+    --gray: #373a40;
+    --primary: #69ECD4;
+    --secondary: #203F2D;
+    --info: #17a2b8;
+    --light: #F1F1F1;
+    --write: #ffffff;
+    --dark: #222222;
+  
+    --altura-Inicio: 100vh;
+    --altura-Inicio-Minima: max-content;
+  }
+#header{
+    background-color: var(--light);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 3em;
+    z-index: 1;
+    flex-flow: row-reverse;
+}

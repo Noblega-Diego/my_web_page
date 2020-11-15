@@ -1,0 +1,216 @@
+:root{
+  --gray: #373a40;
+  --primary: #69ECD4;
+  --secondary: #203F2D;
+  --info: #17a2b8;
+  --light: #F1F1F1;
+  --write: #ffffff;
+  --dark: #222222;
+
+  --altura-Inicio: 100vh;
+  --altura-Inicio-Minima: max-content;
+}
+
+
+*{
+    margin: 0px;
+}
+
+body{
+    font-size: 16px;
+}
+
+
+
+.inicio {
+    background: url(../img/photo-1555099962-4199c345e5dd.jpeg);
+    width: 100%;
+    min-height: 50em;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio #presentacion {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    min-height: max-content;
+    flex: 3;
+    backdrop-filter: blur(10px);
+    background-color: rgba(17, 17, 17, 0.39);
+    justify-content: center;
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+.box-w{
+    padding-left: 13%;
+    width: max-content;
+    height: max-content;
+}
+.inicio #presentacion .presentacion-container{
+    padding-left: 13%;
+    display: flex;
+    flex-flow: row wrap;
+    min-height: max-content;
+    padding-top: 10%;
+    padding-bottom: 2em;
+}
+.inicio #presentacion .presentacion-container .imagen-identificar{
+    background: url(../img/photo.jpeg);
+    min-height: 15em;
+    min-width: 11em;
+    max-width: 12em;
+    max-height: 21em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.6em;
+    flex: 1;
+}
+
+.inicio #presentacion .presentacion-container .informacion{
+    padding: 2em;
+}
+
+.inicio #presentacion .presentacion-container .informacion-contenido{
+    min-width: 10em;
+    display: flex;
+    min-width: 5em;
+    width: 85%;
+    flex-direction: column;
+}
+/*.inicio #presentacion .barra_contacto{
+    margin-left: 10em;
+}*/
+.redes{
+    height: 3em;
+    width: 18em;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: var(--light);
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.separador{
+    flex: 0 0 auto;
+    background-color: var(--secondary);
+    width: 100%;
+}
+.box-flex{
+    top: 0px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.info{
+    text-align: center;
+    max-width: 10em;
+    margin: 1em;
+}
+.info h3{
+    margin-top: 1em;
+    
+}
+.info p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.icon{
+    height: 100%;
+    flex: 0 0 auto;
+}
+
+.icon-svg{
+    fill: var(--secondary);
+}
+a:hover .icon-svg{
+    fill: var(--primary);
+}
+.h-1{
+    height: 1em;
+}
+.h-05{
+    height: 0.5em;
+}
+.gal{
+    position: absolute;
+    top: 1em;
+    left: 0px;
+    width: 50%;
+    max-width: 30em;
+    min-width: 20em;
+}
+.inicio .habilidades{
+    position: relative;
+    min-height: max-content;
+    background-color: var(--primary);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title-habilidades{
+    margin-top: 1.8em;
+}
+.text-light{
+    color: var(--light);
+}
+.text-primary{
+    color: var(--primary);
+}
+.text-dark{
+    color: var(--dark);
+}
+.text-gray-dark{
+    color: var(--gray-dark);
+}
+
+
+.blur{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    backdrop-filter: blur(5px);
+}
+a{
+    color: var(--write);
+    text-decoration: none;
+}
+.t-1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.t-2{
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+}
+.t-3{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+}
+.t-4{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+.t-5{
+    font-family: 'Lato-', sans-serif;
+    font-size: 1em;
+}
+/*
+@media only screen and (max-width: 700px) {
+    body{
+        font-size: 14px;
+    }
+}*/
