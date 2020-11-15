@@ -26,7 +26,6 @@ body{
     background: url(../img/photo-1555099962-4199c345e5dd.jpeg);
     width: 100%;
     min-height: 50em;
-    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -83,9 +82,10 @@ body{
     width: 85%;
     flex-direction: column;
 }
-/*.inicio #presentacion .barra_contacto{
-    margin-left: 10em;
-}*/
+
+.barra_contacto > h2{
+    margin-bottom: 1em;
+}
 .redes{
     height: 3em;
     width: 18em;
@@ -187,26 +187,27 @@ a{
     text-decoration: none;
 }
 .t-1{
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
     font-size: 3.5em;
 }
 
 .t-2{
-    font-family: 'Lato', sans-serif;
     font-size: 3em;
 }
 .t-3{
-    font-family: 'Lato', sans-serif;
     font-size: 2.5em;
 }
 .t-4{
-    font-family: 'Lato', sans-serif;
     font-size: 1.5em;
 }
 .t-5{
-    font-family: 'Lato-', sans-serif;
     font-size: 1em;
+}
+.font-a{
+    font-family: 'Lexend Deca', sans-serif;
+}
+.font-b{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 @media only screen and (max-width: 420px) {
     body{

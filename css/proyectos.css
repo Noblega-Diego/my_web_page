@@ -1,0 +1,75 @@
+.portafolio{
+    background-color: var(--light);
+    width: 100%;
+    height: max-content;
+}
+.portafolio > h3{
+    width: max-content;
+    padding: 1rem;
+    padding-left: 3rem;
+}
+.portafolio .line-separador{
+    background-color: var(--primary);
+    width: 80%;
+    max-width: 70em;
+    height: 1em;
+}
+.portafolio .line-decorator{
+    background-color: var(--secondary);
+    width: 1em;
+    height: 1em;
+    float: right;
+}
+.proyectos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    flex: 1;
+    margin: 1rem;
+    width: 30rem;
+    min-width: 25rem;
+    max-width: 34rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.total{
+    height: 37rem;
+    max-height: 100%;
+}
+.basic{
+    height: 18rem;
+}
+.proyect{
+    flex: 1;
+    background-color: #C4C4C4;
+    border-radius: 8px;
+    min-width: 35%;
+    margin: 0.5rem;
+}
+.vacio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.vacio p{
+    padding-bottom: 0rem;
+}
+
+.vacio svg{
+    height:50%;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary);
+    border-radius: 8px;
+    animation: 300ms;
+}
+.content:hover{
+    transform: translateX(-10px) translateY(-8px);
+}
