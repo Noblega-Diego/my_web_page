@@ -132,7 +132,7 @@ body{
     fill: var(--secondary);
 }
 a:hover .icon-svg{
-    fill: var(--primary);
+    fill: var(--info);
 }
 .h-1{
     height: 1em;
@@ -208,9 +208,8 @@ a{
     font-family: 'Lato-', sans-serif;
     font-size: 1em;
 }
-/*
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 420px) {
     body{
         font-size: 14px;
     }
-}*/
+}

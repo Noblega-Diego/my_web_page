@@ -12,14 +12,21 @@
 <body >
     <!-- Navegador -->
     <header id="header">
-        <div class="barra">
             <nav>
-                <a href="#">incio</a>
-                <a href="#">lenguajes</a>
-                <a href="#"></a>
+                <ul class="menu">
+                    <li class="item"><a href="#" class="t-4 item-link">incio</a></li>
+                    <li class="item"><a href="#habilidades" class="t-4 item-link">hablidades</a></li>
+                    <li class="item"><a href="#" class="t-4 item-link">presentacion</a></li>
+                    <li class="item"><a href="#" class="t-4 item-link" >contactar</a></li>
+                    <li class="item"><a href="#" class="t-3 item-link" >proyectos</a></li>
+                    <li  class="toggle"><a id="buttonMenu"><span>
+                        <svg class="icon-menu-svg" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.00002 2H20M2 10.1096C9.02944 10.1096 12.9706 10.1096 20 10.1096M2.00002 18C9.02946 18 12.9706 18 20 18"  stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span></a></li>
+                </ul>
             </nav>
-        </div>
-        <div id="position"></div>
+        <div class="separador h-05 item"></div>
     </header>
 
     <!-- Incio -->
@@ -75,7 +82,7 @@
             </div>
         </div>
         
-        <div class="habilidades">
+        <div class="habilidades" id="habilidades">
             <div class="separador h-1"></div>
             <img class="gal" src="img/gal.svg" alt="">
             <h2 id="title-habilidades" class="t-3">Siempre en movimiento...</h2>
