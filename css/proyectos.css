@@ -4,6 +4,7 @@
     height: max-content;
 }
 .portafolio > h3{
+    color: var(--dark);
     width: max-content;
     padding: 1rem;
     padding-left: 3rem;
@@ -57,6 +58,7 @@
 }
 
 .vacio p{
+    color: var(--dark);
     padding-bottom: 0rem;
 }
 

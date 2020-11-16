@@ -11,7 +11,9 @@
   --altura-Inicio-Minima: max-content;
 }
 
-
+html{
+    scroll-behavior: smooth;    /* efecto scrooll*/
+}
 *{
     margin: 0px;
 }
