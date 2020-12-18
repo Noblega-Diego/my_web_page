@@ -1,0 +1,90 @@
+.presentacion-sobremí{
+}
+.presentacion-sobremí span{
+    color: var(--primary);
+}
+.presentacion-sobremí h3{
+    padding: 1rem;
+    padding-left: 3rem;
+}
+.presentacion-sobremí .box{
+    padding: 3rem 30% 3rem 3rem;
+    font-size: 1.5rem;
+}
+.box-lineal{
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(31, 31, 31))
+}
+.tecnologias{
+    bottom: 0px;
+    max-width: 50rem;
+    height: max-content;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+}
+.tecnologia{
+    margin: 0.4rem;
+    flex: 1;
+    height: 2rem;
+    background: var(--light);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 6px 0px 6px;
+}
+.tecnologia > p{
+    padding: 0px 9px;
+}
+.tecnologia > .porcentaje{
+    height: 70%; 
+    background-color: #e7e7e7a6; 
+    border-radius: 10em; 
+    display: flex; 
+    align-items: center;
+}
+.tecnologia > .porcentaje > p{
+    padding: 0px 9px;
+}
+.flex-1{
+    min-width: 25%;
+    max-width: 30%;
+}
+.flex-2{
+    min-width: 35%;
+    max-width: 40%;
+}
+.flex-3{
+    min-width: 45%;
+    max-width: 50%;
+}
+.flex-4{
+    min-width: 65%;
+    max-width: 60%;
+}
+.flex-4{
+    min-width: 70%;
+    max-width: 75%;
+}
+.presentacion-sobremí .line-separador{
+    background-color: var(--primary);
+    width: 90%;
+    max-width: 70em;
+    height: 1em;
+}
+.presentacion-sobremí .line-decorator{
+    background-color: var(--secondary);
+    width: 1em;
+    height: 1em;
+    float: right;
+}
+@media only screen and (max-width: 700px) {
+    .tecnologias{
+        width: 90%;
+    }
+    .presentacion-sobremí .box{
+        padding: 3rem;
+        font-size: 1.5rem;
+    }
+}

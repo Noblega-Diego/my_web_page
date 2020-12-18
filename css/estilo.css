@@ -36,7 +36,7 @@ body{
     flex-direction: column;
 }
 
-.inicio #presentacion {
+.inicio .presentacion {
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -53,7 +53,7 @@ body{
     width: max-content;
     height: max-content;
 }
-.inicio #presentacion .presentacion-container{
+.inicio .presentacion .presentacion-container{
     padding-left: 13%;
     display: flex;
     flex-flow: row wrap;
@@ -61,7 +61,7 @@ body{
     padding-top: 10%;
     padding-bottom: 2em;
 }
-.inicio #presentacion .presentacion-container .imagen-identificar{
+.inicio .presentacion .presentacion-container .imagen-identificar{
     background: url(../img/photo.jpeg);
     min-height: 15em;
     min-width: 11em;
@@ -73,11 +73,11 @@ body{
     flex: 1;
 }
 
-.inicio #presentacion .presentacion-container .informacion{
+.inicio .presentacion .presentacion-container .informacion{
     padding: 2em;
 }
 
-.inicio #presentacion .presentacion-container .informacion-contenido{
+.inicio .presentacion .presentacion-container .informacion-contenido{
     min-width: 10em;
     display: flex;
     min-width: 5em;
@@ -98,12 +98,12 @@ body{
 }
 .separador{
     flex: 0 0 auto;
-    background-color: var(--secondary);
     width: 100%;
 }
 .box-h-1{height: 3rem;}
 .box-h-2{height: 1.5rem;}
 .box-write{background-color: var(--light);}
+.box-secondary{background-color: var(--secondary);}
 .box-write .icon-svg{
     fill: var(--secondary);
 }
@@ -202,16 +202,16 @@ a{
 }
 
 .t-2{
-    font-size: 3em;
+    font-size: 3rem;
 }
 .t-3{
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 .t-4{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 .t-5{
-    font-size: 1em;
+    font-size: 1rem;
 }
 .font-a{
     font-family: 'Lexend Deca', sans-serif;

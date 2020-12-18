@@ -1,14 +1,14 @@
 
 #header{
-    background-color: var(--light);
+  background-color: rgba(46, 46, 46, 0.418);
     position: fixed;
     top: 0px;
     right: 0px;
     width: 100%;
     height: max-content;
     z-index: 1;
+    
 }
-
 ul{
   list-style-type: none;
   padding-left: 0px;
@@ -21,9 +21,6 @@ ul{
 .menu a{
   display: block;
 }
-a{
-  color: var(--secondary);
-}
 a:hover{
   text-decoration: underline;
 }
@@ -33,6 +30,7 @@ a:hover{
   justify-content: space-around;
   align-items: center;
   padding: 0px 10%;
+  color: var(--light);
 }
 .item{
   text-align: center;
@@ -60,6 +58,13 @@ a:hover .icon-menu-svg{
   stroke: var(--primary);
 }
 @media only screen and (max-width: 900px){
+  
+  .menu{
+    background-color: var(--light);
+  }
+  .item-link{
+    color: var(--secondary);
+  }
   .item{
     order: 2;
     width: 100%;
