@@ -26,7 +26,7 @@
     margin: 0.4rem;
     flex: 1;
     height: 2rem;
-    background: var(--light);
+    background: var(--write);
     border-radius: 30px;
     display: flex;
     flex-direction: row;
