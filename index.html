@@ -32,17 +32,18 @@
             </nav>
         <div class="separador h-05 item"></div>
     </header>
-
-    <!-- Incio -->
-    <div class="inicio" id="inicio" >
+    <main>
+        <section>
+            <!-- Incio -->
+            <article class="inicio" id="inicio" >
         <div class="presentacion">
             <div class="presentacion-container">
-                <div class="imagen-identificar"></div>
+                <img src="assets/image/photo.jpeg" class="imagen-identificar">
                 <div class="informacion">
-                        <p class="t-3 text-light font-b" id="dedicacion">Bienvenido, soy</p>
+                        <p class="t-3 text-light font-b">Bienvenido, soy</p>
                         <h2 class="t-1 text-light text-primary" id="Nombre"> Diego Noblega</h2>
                         <div class="informacion-contenido">
-                            <p  class="t-4 text-light" id="dedicacion">&emsp;Desarollador freeLance de Backend y Frontend</p>
+                            <p  class="t-4 text-light">&emsp;Desarollador freeLance de Backend y Frontend</p>
                         </div>
                 </div>
             </div>
@@ -94,19 +95,21 @@
             <div class="separador h-05"></div>
         </div>
         
-    </div>
+            </article>
 
-    <!-- Informacion -->
-
-    <div id="presentacion" class="presentacion-sobremí box-lineal" >
-            <h3 class="text-light t-2">presentándome</h3>
-            <div class="line-separador"><div class="line-decorator"></div></div>
-            <div class="box">
-                 <p class="text-light">
-                    Soy una persona completamente dedicado al <span>desarollo web</span>, me apasiona el <span> diseño ui </span> queriendo ofrecer siempre una agradable aparienca. Durante mi aprendizaje he realizado varios proyectos tanto de robotica como de backend asi como de frontend.
-            </div>
-            <h3 class="text-light t-3">destrezas</h3>
-            <div class="tecnologias">
+            <!-- Informacion -->
+            <article id="presentacion" class="presentacion-sobremí box-lineal" >
+                <section>
+                    <h3 class="text-light t-2">presentándome</h3>
+                    <div class="line-separador"><div class="line-decorator"></div></div>
+                    <div class="box">
+                         <p class="text-light">
+                            Soy una persona completamente dedicado al <span>desarollo web</span>, me apasiona el <span> diseño ui </span> queriendo ofrecer siempre una agradable aparienca. Durante mi aprendizaje he realizado varios proyectos tanto de robotica como de backend asi como de frontend.
+                    </div>
+                </section>
+                <section>
+                    <h3 class="text-light t-3">destrezas</h3>
+                    <div class="tecnologias">
                 <div class="tecnologia flex-1" style="background-color: #E45555;">
                     <p>java</p><div class="porcentaje"><p>28%</p></div>
                 </div>
@@ -126,39 +129,42 @@
                     <p>javaScript</p><div class="porcentaje"><p>70%</p></div>
                 </div>
                 <div class="tecnologia" style="background-color: #242424;"></div>
-        </div>
-    </div>
+                    </div>
+                </section>
+            </article>
 
-    <!-- Portafolio -->
-
-
-    <class class="portafolio" id="proyectos">
-        <h3 class="t-2">proyectos</h3>
-        <div class="line-separador"><div class="line-decorator"></div></div>
-        <section class="proyects">
-            <article class="proyect">
+            <!-- Portafolio -->
+            <article class="portafolio" id="proyectos">
+                <section>
+                    <h3 class="t-2">proyectos</h3>
+                    <div class="line-separador"><div class="line-decorator"></div></div>
+                </section>
+                <section class="proyects" id="proyectos_list">
+            <!-- <article class="proyect">
                 <div class="proyect__content">
                     <div class="proyect__preview">
-                        <img src="" alt="">
+                        <video src="assets/video/video.webm"></video>
                     </div>
                     <ul class="proyect__links">
-                        <li><a class="inline-decorator inline-hover inline-github"> <span class="inline__text">gitHub</span> <svg data-src="/assets/svg/github.svg" viewBox="0 0 16 16"></svg></a></li>
-                        <li><a class="inline-decorator inline-hover inline-www"> <span class="inline__text">web site</span><svg data-src="/assets/svg/www.svg" viewBox="0 0 16 16"></svg></a></li>
+                        <li><a class="inline-decorator inline-hover inline-github" href="https://github.com/diexes/Clock_Study_pomodoro"> <span class="inline__text">gitHub</span> <svg data-src="/assets/svg/github.svg" viewBox="0 0 16 16"></svg></a></li>
+                        <li><a class="inline-decorator inline-hover inline-www" href="https://diexes.github.io/Clock_Study_pomodoro/"> <span class="inline__text">web site</span><svg data-src="/assets/svg/www.svg" viewBox="0 0 16 16"></svg></a></li>
                     </ul>
                 </div>
                 <div class="proyect__info">
-                    <h1 class="proyect__title">Nombre</h1>
+                    <h3 class="proyect__title">reloj de estudio (tecnica pomodoro)</h3>
                     <ul class="proyect__list">
                         <li><span class="inline-decorator inline-css">CSS</span></li>
-                        <li><span class="inline-decorator inline-js">JavaScript</span></li>
+                        <li><span class="inline-decorator inline-javascript">JavaScript</span></li>
                         <li><span class="inline-decorator inline-html">HTML</span></li>
                     </ul>
                     <div class="proyect__efect"></div>
                 </div>
-            </article>
+            </article> -->
             
+                </section>
+            </article>
         </section>
-    </div>
+    </main>
     <!-- Footer -->
     <footer>
         <div class="logo">
@@ -178,7 +184,7 @@
                 </a>
             </div>
             <p class="text-light">Correo: <a href="mailto:diegomendoza20015@gmail.com" target="_blank">diegomendoza20015@gmail.com</a></p>
-            <p class="text-light">&copy; 2020 Diego Exequiel Noblega</p>
+            <p class="text-light">&copy; 2021 Diego Exequiel Noblega</p>
         </div>
     </footer>
     <script type="text/javascript" src="./js/index.js"></script>
